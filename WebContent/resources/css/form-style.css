@@ -1,0 +1,195 @@
+html, body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: #fff;;
+}
+/* -----------------------
+Layout styles
+------------------------*/
+.container {
+	max-width: 80em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.main_container {
+	width: 95%;
+	margin: auto;
+}
+
+.header {
+	color: #fff;
+	padding: 1%;
+	
+}
+
+.header-heading {
+	margin: 0;
+	background: #555;
+}
+
+.header_left {
+	float: left;
+	width: 75%;
+	padding-right: 10%;
+}
+
+.header_right {
+	float: left;
+	width: 10%;
+	text-align: right;
+	padding-right: 0;
+	margin-right: 0%;
+}
+
+
+.nav-bar {
+	background: #000;
+	padding: 0;
+}
+
+.content {
+	overflow: hidden;
+	padding: 1%;
+	background-color: #fff;
+}
+
+.col1, .col2 {
+	margin-bottom: 1em;
+}
+
+.col1 {
+	float: left;
+	width: 80%;
+	padding-right: 2%;
+}
+
+.col2 {
+	float: left;
+	width: 15%;
+	padding-right: 2%;
+}
+
+.footer {
+	color: #fff;
+	background: #000;
+	padding: 1em 1.25em;
+}
+
+
+/* button style */
+.header_btn {
+	background-color: #555;
+	border: none;
+	color: white;
+	padding: 1% 1%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 1px 1px;
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	text-align: justify;
+	font-size: 80%;
+}
+
+/* Nav */
+
+.nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #fff;
+	background: #000;
+}
+
+
+.nav li {
+	display: inline-block;
+	margin: 0;
+	float: left;
+	padding-right: 5%;
+	padding-left: 15%;
+	padding-top: 2%;
+	text-align: right;
+}
+
+/* form {
+	margin-top: 10px;
+} */
+
+label {
+	font-size: 16px; 
+	width: 55%;
+	display: block; 
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+#save_input {
+	width: 55%;
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 16px;
+} 
+
+select{
+	width: 250px;
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 16px;
+}
+
+option{
+		width: 250px;
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 16px;
+}
+
+.save {
+	font-weight: bold;
+	width: 130px; 
+	padding: 5px 10px; 
+	margin-top: 30px;
+	background: #cccccc;
+}
+
+.table_form {   
+	border-style:none;
+	width:50%;
+}
+
+.table_form.tr {
+	border-style:none;
+	text-align:left;	
+}
+
+.table_form.td {
+	border-style:none;
+	text-align:left;	
+}
+
+.table_form.tr:nth-child(even) {background: #FFFFFF}
+.table_form.tr:nth-child(odd) {background: #FFFFFF}
+
+
+	
+.error {
+	color:red;
+}
